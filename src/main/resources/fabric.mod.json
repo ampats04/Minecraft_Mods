@@ -11,19 +11,19 @@
 		"homepage": "",
 		"sources": ""
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "CC BY-NC-SA 3.0",
+	"icon": "assets/llamasmuds/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"ampats04.llamas.muds.llamasmuds"
 		],
 		"client": [
 			"com.example.ExampleModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"llamasmuds.mixins.json",
 		{
 			"config": "modid.client.mixins.json",
 			"environment": "client"

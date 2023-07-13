@@ -1,4 +1,4 @@
-package com.example.mixin;
+package ampats04.llamas.muds.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
